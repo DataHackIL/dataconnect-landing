@@ -5142,3 +5142,18 @@ body {
 .inline-brand:visited {
   color: #ffffff;             /* stay white after visited */
 }
+
+.inline-wrap a.inline-brand {
+  color: #ffffff !important;        /* force white */
+  text-decoration: none !important; /* kill underline */
+}
+
+.inline-wrap a.inline-brand:visited {
+  color: #ffffff !important;        /* stay white after click */
+  text-decoration: none !important;
+}
+
+.inline-wrap a.inline-brand:hover {
+  color: #4168FA !important;        /* hover highlight */
+  text-decoration: none !important;
+}
