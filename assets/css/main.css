@@ -5074,7 +5074,7 @@ body {
     display:inline;
 }
 .inline-wrap .logo-inline{
-    height:2em;          /* tune size as you like */
+    height:4em;          /* tune size as you like */
     vertical-align:baseline; /* or try text-bottom */
 }
 
