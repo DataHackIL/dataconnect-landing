@@ -5070,6 +5070,20 @@ body {
 
 /*! Additions by Shay */
 
+/*! header.html realted styles */
+
+.header h1 .site-description {
+  display: block;       /* make it drop to a new line */
+  margin-top: 0.5em;   /* adjust to taste */
+}
+
+.header h1 .site-description {
+  display: block;       /* make it drop to a new line */
+  margin-top: 0.35em;   /* adjust to taste */
+}
+
+/*! about.html related styles */
+
 .inline-wrap{
     display:inline;
 }
@@ -5115,3 +5129,4 @@ body {
   text-decoration: none !important;
   border-bottom: none !important;
 }
+
