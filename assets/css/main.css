@@ -5071,10 +5071,9 @@ body {
 /*! Additions by Shay */
 
 .inline-wrap{
-    display:inline-flex;
-    align-items:center;      /* aligns image + text nicely */
+    display:inline;
 }
-.inline-wrap img{
-    display:inline-block;
-    vertical-align:middle;
+.inline-wrap .logo-inline{
+    height:1.2em;          /* tune size as you like */
+    vertical-align:baseline; /* or try text-bottom */
 }
