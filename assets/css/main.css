@@ -5074,12 +5074,11 @@ body {
 
 .header h1 .site-description {
   display: block;       /* make it drop to a new line */
-  margin-top: 0.5em;   /* adjust to taste */
+  margin-top: 0.9em;   /* adjust to taste */
 }
 
-.header h1 .site-description {
-  display: block;       /* make it drop to a new line */
-  margin-top: 0.35em;   /* adjust to taste */
+.header h1  {
+  margin-bottom: 0.6em;
 }
 
 /*! about.html related styles */
