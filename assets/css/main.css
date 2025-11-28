@@ -5066,3 +5066,15 @@ body {
   margin: 0;
   color: #fff
 }
+
+
+/*! Additions by Shay */
+
+.inline-wrap{
+    display:inline-flex;
+    align-items:center;      /* aligns image + text nicely */
+}
+.inline-wrap img{
+    display:inline-block;
+    vertical-align:middle;
+}
