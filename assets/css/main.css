@@ -5074,6 +5074,38 @@ body {
     display:inline;
 }
 .inline-wrap .logo-inline{
-    height:1.2em;          /* tune size as you like */
+    height:2em;          /* tune size as you like */
     vertical-align:baseline; /* or try text-bottom */
+}
+
+/* Make the link invisible (no underline, inherit color) */
+.tech-link {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Prevent blue/purple visited/active colors */
+.tech-link:visited,
+.tech-link:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* On hover, give a subtle feedback */
+.tech-link:hover h2,
+.tech-link:hover svg {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+/* Ensure h2 and svg sit tightly together */
+.tech-link h2 {
+  margin-bottom: 0.2em;
+}
+
+/* SVG sizing (adjust to taste) */
+.tech-link svg {
+  height: 1.6em;
+  vertical-align: middle;
 }
