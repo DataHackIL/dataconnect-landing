@@ -5074,8 +5074,9 @@ body {
     display:inline;
 }
 .inline-wrap .logo-inline{
-    height:4em;          /* tune size as you like */
+    height:3.2em;          /* tune size as you like */
     vertical-align:baseline; /* or try text-bottom */
+    margin-right: 0.35em;
 }
 
 /* Make the link invisible (no underline, inherit color) */
