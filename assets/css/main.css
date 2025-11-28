@@ -4888,6 +4888,10 @@ sup {
   margin-top: 10px
 }
 
+.header .site-title-accent {
+  color: #4168fa
+}
+
 @media only screen and (min-width:768px) {
   .header .site-description {
     font-size: 34px
