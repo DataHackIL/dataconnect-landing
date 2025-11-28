@@ -5109,3 +5109,8 @@ body {
   height: 1.6em;
   vertical-align: middle;
 }
+
+.tech-link h2 {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
