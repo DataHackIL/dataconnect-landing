@@ -5130,7 +5130,7 @@ body {
 }
 
 .inline-brand {
-  color: #ffffff;             /* stays white */
+  color: #555;             /* stays white */
   text-decoration: none;      /* no underline */
   transition: color 0.2s ease;
 }
@@ -5140,16 +5140,16 @@ body {
 }
 
 .inline-brand:visited {
-  color: #ffffff;             /* stay white after visited */
+  color: #555;             /* stay white after visited */
 }
 
 .inline-wrap a.inline-brand {
-  color: #ffffff !important;        /* force white */
+  color: #555 !important;        /* force white */
   text-decoration: none !important; /* kill underline */
 }
 
 .inline-wrap a.inline-brand:visited {
-  color: #ffffff !important;        /* stay white after click */
+  color: #555 !important;        /* stay white after click */
   text-decoration: none !important;
 }
 
