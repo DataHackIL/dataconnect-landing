@@ -1,0 +1,18 @@
+current directory: /Users/shaypalachy/clones/dataconnect-landing/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/shaypalachy/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/shaypalachy/clones/dataconnect-landing/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251127-67292-1mq1zr sitelibdir\=./.gem.20251127-67292-1mq1zr clean
+
+current directory: /Users/shaypalachy/clones/dataconnect-landing/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251127-67292-1mq1zr sitelibdir\=./.gem.20251127-67292-1mq1zr
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/shaypalachy/clones/dataconnect-landing/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251127-67292-1mq1zr sitelibdir\=./.gem.20251127-67292-1mq1zr install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20251127-67292-1mq1zr/racc
+
+current directory: /Users/shaypalachy/clones/dataconnect-landing/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251127-67292-1mq1zr sitelibdir\=./.gem.20251127-67292-1mq1zr clean
