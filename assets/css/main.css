@@ -5158,6 +5158,9 @@ body {
   text-decoration: none !important;
 }
 
+
+/* About.html - Contact section */
+
 .contact-cta {
   text-align: center;
   margin: 60px auto 0;
@@ -5190,4 +5193,31 @@ body {
 
 .contact-button:active {
   transform: translateY(0);
+}
+
+.contact-section {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.contact-text {
+  font-size: 1.6rem;          /* bigger text */
+  font-weight: 400;
+  margin-bottom: 25px;        /* space before button */
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 16px 42px;         /* bigger button */
+  font-size: 1.4rem;          /* bigger text */
+  border-radius: 40px;
+  background: #4168FA;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.contact-button:hover {
+  background: #2d4edc;
 }
