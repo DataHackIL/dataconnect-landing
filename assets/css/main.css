@@ -5204,7 +5204,7 @@ body {
 .contact-text {
   font-size: 1.6rem;          /* bigger text */
   font-weight: 400;
-  margin-bottom: 25px;        /* space before button */
+  margin-bottom: 35px;        /* space before button */
 }
 
 .contact-button {
