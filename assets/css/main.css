@@ -5157,3 +5157,37 @@ body {
   color: #4168FA !important;        /* hover highlight */
   text-decoration: none !important;
 }
+
+.contact-cta {
+  text-align: center;
+  margin: 60px auto 0;
+}
+
+.contact-cta p {
+  font-size: 16px;
+  margin-bottom: 1em;
+  color: #555;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 0.6em 1.6em;
+  background: #4168fa;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 999px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.contact-button:hover,
+.contact-button:focus {
+  background: #304fda;
+  transform: translateY(-1px);
+}
+
+.contact-button:active {
+  transform: translateY(0);
+}
