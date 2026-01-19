@@ -1,0 +1,19 @@
+current directory: C:/Projects/dataconnect-landing/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+C:/Ruby34-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Projects/dataconnect-landing/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260118-31320-fyqzvj sitelibdir\=./.gem.20260118-31320-fyqzvj clean
+
+current directory: C:/Projects/dataconnect-landing/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260118-31320-fyqzvj sitelibdir\=./.gem.20260118-31320-fyqzvj
+generating cparse-x64-mingw-ucrt.def
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: C:/Projects/dataconnect-landing/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260118-31320-fyqzvj sitelibdir\=./.gem.20260118-31320-fyqzvj install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20260118-31320-fyqzvj/racc
+
+current directory: C:/Projects/dataconnect-landing/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260118-31320-fyqzvj sitelibdir\=./.gem.20260118-31320-fyqzvj clean
